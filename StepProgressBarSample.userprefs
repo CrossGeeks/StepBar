@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{7C6A0989-E6E4-413F-84DF-C7B14CBFFE03}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StepProgressBarSample/App.xaml">
+    <Files>
+      <File FileName="StepProgressBarSample/App.xaml" Line="7" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StepProgressBarSample.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StepProgressBarSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BE74CB45-D340-4302-BA57-66F77F3DF84A">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.StepProgressBarSample.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

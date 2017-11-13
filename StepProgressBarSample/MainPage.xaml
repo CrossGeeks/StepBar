@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="StepProgressBarSample.MainPage"
+            xmlns:local="clr-namespace:StepProgressBarSample" >
+	<ContentPage.Content>
+        <StackLayout Padding="10,40" >
+          <local:StepProgressBarControl  StepColor="Blue" Steps="5" StepSelected="1" x:Name="stepBar"/>
+
+            <Label BindingContext="{x:Reference stepBar}"
+               Text="{Binding StepSelected, StringFormat='The Step Selected is {0}'}"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
